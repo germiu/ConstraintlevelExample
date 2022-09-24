@@ -98,6 +98,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
+        <EditText
+            android:id="@+id/et_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OTP"
+            app:layout_constraintBottom_toTopOf="@id/button" />
+
+
         <View
             android:id="@+id/divider"
             android:layout_width="150dp"

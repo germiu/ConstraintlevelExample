@@ -12,8 +12,9 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     String userName = "Isah";
     String password = "Musa";
+    String otp = "abc";
 
-    EditText editTextTextEmailAddress,editTextTextPassword2;
+    EditText editTextTextEmailAddress,editTextTextPassword2,et_otp;
 
     Button button;
 
@@ -35,9 +36,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String use = editTextTextEmailAddress.getText().toString();
                 String pass = editTextTextPassword2.getText().toString();
+                String ot = et_otp.getText().toString();
 
 
-                if(use.equals(userName) && pass.equals(password)){
+                if(use.equals(userName) && pass.equals(password) && ot.equals(otp)){
 
                     Intent i = new Intent(MainActivity.this,LoginActivity.class);
                     startActivity(i);
