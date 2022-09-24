@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         editTextTextEmailAddress = findViewById(R.id.editTextTextEmailAddress);
         editTextTextPassword2 = findViewById(R.id.editTextTextPassword2);
+        et_otp = findViewById(R.id.et_otp);
         button=findViewById(R.id.button);
     }
 
